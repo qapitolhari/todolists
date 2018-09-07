@@ -26,5 +26,15 @@ A simple REST server for maintaining multiple todos
 	}]
 }
 ```
-1. Get list of __TodoLists__: GET on `http://localhost:8080/todos`
+2. Get list of __TodoLists__: GET on `http://localhost:8080/todos`
+3. Update a __TodoList__: PUT on `http://localhost:8080/todos/1`
+```
+{
+	"listName":"modified list Name",
+	"items": [
+	{
+		"itemText": "Third item"
+	}]
+}
+```
 
