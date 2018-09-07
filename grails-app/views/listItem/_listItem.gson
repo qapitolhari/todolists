@@ -1,0 +1,7 @@
+import sample.ListItem
+
+model {
+	ListItem listItem
+}
+
+json g.render(listItem)

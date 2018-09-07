@@ -1,0 +1,8 @@
+import sample.ListItem
+
+model {
+	Iterable<ListItem> listItemList
+}
+
+json tmpl.listItem(listItemList ?: [])
+

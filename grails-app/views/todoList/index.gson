@@ -1,0 +1,8 @@
+import sample.TodoList
+
+model {
+	Iterable<TodoList> todoListList
+}
+
+json tmpl.todoList(todoListList ?: [])
+

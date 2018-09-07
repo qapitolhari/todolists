@@ -1,0 +1,7 @@
+import sample.TodoList
+
+model {
+	TodoList todoList
+}
+
+json tmpl.todoList(todoList)
