@@ -13,4 +13,19 @@ A simple REST server for maintaining multiple todos
 
 ### Request URLs
 
+1. Create a __TodoList__: `http://localhost:8080/todos`
+```
+{
+	"listName":"one",
+	"items": [
+		{
+			"itemText": "One item"
+		},
+    {
+      "itemText: "Item Two"
+    }
+    
+		]
+}
+```
 
